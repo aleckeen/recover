@@ -1,0 +1,16 @@
+[package]
+name = "recover"
+version = "0.1.0"
+authors = ["Alec Keen <aleckeen@tutanota.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
+
+[lib]
+name = "recover"
+path = "src/lib.rs"
+
+[[bin]]
+name = "recover"
+path = "app/main.rs"
